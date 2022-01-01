@@ -18,7 +18,7 @@ docker run -d \
     --hostname pi.hole \
     -e VIRTUAL_HOST="pi.hole" \
     -e PROXY_LOCATION="pi.hole" \
-    -e ServerIP="127.0.0.1" \
+    -e ServerIP="23.239.24.208" \
     pihole/pihole:latest
 
 printf 'Starting up pihole container '
